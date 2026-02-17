@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 const app = express();
 app.use(express.json({ limit: "15mb" }));
 
-const API_KEY = "PEGA_AQUI_TU_API_KEY";
+const API_KEY = "AIzaSyCkTXQlnKA1ucOy77fvQ1S7s7tjBJxaqBM";
 
 const PROMPTS = {
   llantas: "Analiza la llanta bajo Res 3768/2013 Colombia: profundidad, cortes, veredicto técnico.",
